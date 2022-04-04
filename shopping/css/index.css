@@ -1,0 +1,248 @@
+/* 此样式文件是：首页主体部分样式文件 */
+
+
+/* 首页专有的模块1，main模块start */
+
+.w .main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.w .main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+
+/* newsflash模块 */
+
+.w .main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: skyblue; */
+}
+
+.w .main .newsflash .news {
+    height: 165px;
+    border: 2px solid #e4e4e4;
+}
+
+
+/* news_hd模块 */
+
+.w .main .newsflash .news .news_hd {
+    line-height: 33px;
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.w .main .newsflash .news .news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.w .main .newsflash .news .news_hd .more {
+    float: right;
+}
+
+.w .main .newsflash .news .news_hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+    margin-left: 5px;
+}
+
+
+/* news_bd模块 */
+
+.w .main .newsflash .news .news_bd {
+    padding: 5px 15px 0;
+}
+
+.w .main .newsflash .news .news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* lifeservice生活服务模块 */
+
+.w .main .newsflash .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.w .main .newsflash .lifeservice ul li {
+    float: left;
+    /* overflow: hidden;也可以扩大width的大小，多余部分切除 */
+    width: 25%;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.w .main .newsflash .lifeservice ul li:nth-child(4n) {
+    /* 去除表格重叠问题 */
+    border-right: 0;
+}
+
+.w .main .newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+    margin-bottom: 1px;
+}
+
+
+/* bargain模块 */
+
+.w .main .newsflash .bargain {
+    margin-top: 5px;
+}
+
+
+/* 首页专有的模块1，main模块end */
+
+
+/* 首页专有的模块2，recome推荐模块start */
+
+.recome {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recome .recome_hd {
+    float: left;
+    height: 100%;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recome .recome_bd {
+    float: left;
+}
+
+.recome .recome_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recome .recome_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recome .recome_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+
+/* 首页专有的模块2，recome推荐模块end */
+
+
+/* 首页专有的模块3，floor楼层模块start */
+
+
+/* 一楼：家用电器楼层 */
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.floor .jiadian .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.floor .jiadian .box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.floor .jiadian .box_hd .tab_list ul li {
+    float: left;
+}
+
+.floor .jiadian .box_hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .jiadian .box_bd {
+    height: 361px;
+    /* background-color: pink; */
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item>div {
+    float: left;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_210 ul li {
+    float: left;
+    height: 34px;
+    width: 85px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_210 ul {
+    padding-left: 12px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_329 {
+    width: 329px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .col_219 {
+    width: 219px;
+}
+
+.floor .jiadian .box_bd .tab_content .tab_list_item .bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转换为块级盒子 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* 首页专有的模块3，floor楼层模块end */

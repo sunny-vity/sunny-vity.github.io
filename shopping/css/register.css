@@ -1,0 +1,143 @@
+/* 此样式文件是：注册页面的样式文件 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea h3 .login a {
+    color: #c81523;
+    text-decoration: underline;
+}
+
+.registerarea .reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+    /* 上面包含此式子：margin-top: 50px; */
+}
+
+.registerarea .reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-left: 5px;
+}
+
+.registerarea .reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.registerarea .reg_form ul li .error {
+    color: #c81523;
+}
+
+.registerarea .reg_form ul li .error_icon,
+.registerarea .reg_form ul li .success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+.registerarea .reg_form ul li .success {
+    color: green;
+}
+
+.registerarea .reg_form ul li .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.registerarea .reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.maohao {
+    margin: 0 3px 0 5px;
+}
+
+.registerarea .reg_form ul .safe {
+    padding-left: 170px;
+}
+
+.registerarea .reg_form ul .safe em {
+    padding: 0 12px;
+}
+
+.registerarea .reg_form ul .safe .ruo {
+    background-color: #de1111;
+}
+
+.registerarea .reg_form ul .safe .zhong {
+    background-color: #40b83f;
+}
+
+.registerarea .reg_form ul .safe .qiang {
+    background-color: #f79100;
+}
+
+.registerarea .reg_form ul .agree {
+    padding-left: 95px;
+}
+
+.registerarea .reg_form ul .agree input {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.registerarea .reg_form ul .agree a {
+    color: #1ba1e6;
+}
+
+.registerarea .reg_form ul .submit input {
+    margin: 30px 0 0 105px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    padding-bottom: 15px;
+}
+
+.mod_copyright .copyright {
+    line-height: 20px;
+}
